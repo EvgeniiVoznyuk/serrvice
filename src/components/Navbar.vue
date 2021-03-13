@@ -1,57 +1,45 @@
 <template>
-  <div class="main__navbar navbar">
+  <div class="header__navbar navbar">
     <div class="navbar__logo">
-      <a href="/" class="navbar__logo-link">
-        <img src="@/assets/img/moyo_1.png" alt="logo" />
-      </a>
+      <img
+        src="@/assets/img/Logo.svg"
+        alt="Logo"
+        class="navbar__logo__img"
+      >
     </div>
-    <div class="navbar__list">
+    <ul class="navbar__list">
       <li class="navbar__item">
-        <a href="" class="navbar__link">
-          apple
+        <a
+          href=""
+          class="navbar__link navbar__link--active"
+        >
+            Головна
         </a>
       </li>
       <li class="navbar__item">
-        <a href="" class="navbar__link">
-          sumsung
+        <a
+          href=""
+          class="navbar__link"
+        >
+          Ремонт та ціни
         </a>
       </li>
       <li class="navbar__item">
-        <a href="" class="navbar__link">
-          Смартфоны и телефоны
+        <a
+          href=""
+          class="navbar__link"
+        >
+          Контакти
         </a>
       </li>
       <li class="navbar__item">
-        <a href="" class="navbar__link">
-          Ноутбуки и компьютеры
+        <a
+          href=""
+          class="navbar__link"
+        >
+          Залишити заявку
         </a>
       </li>
-      <li class="navbar__item">
-        <a href="" class="navbar__link">
-          гаджеты
-        </a>
-      </li>
-      <li class="navbar__item">
-        <a href="" class="navbar__link">
-          планшеты
-        </a>
-      </li>
-      <li class="navbar__item">
-        <a href="" class="navbar__link">
-          фото
-        </a>
-      </li>
-      <li class="navbar__item">
-        <a href="" class="navbar__link">
-          видео
-        </a>
-      </li>
-    </div>
+    </ul>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'Navbar',
-};
-</script>

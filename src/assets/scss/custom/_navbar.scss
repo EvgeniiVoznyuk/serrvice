@@ -1,19 +1,32 @@
 .navbar {
-  padding: 0 50px;
+  position: fixed;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 25px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 2;
   &__list {
     display: flex;
-    list-style: none;
-    gap: 20px;
+    gap: 40px;
   }
-  &__item {
-    
-  }
+
   &__link {
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
+    @include font($manrope, $f-18, $black, $bold);
+
+    &--active {
+      padding: 7px 13px;
+      border: 1px solid $blue;
+      border-radius: 15px;
+      background-color: $blue;
+      color: $white !important;
+    }
+
+    &:hover {
+      color: $blue;
+    }
   }
 }

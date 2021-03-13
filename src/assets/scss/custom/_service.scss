@@ -1,0 +1,16 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+  align-items: center;
+  &__title {
+    @include font($manrope, $f-72, $black, 800);
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 100px;
+  }
+}

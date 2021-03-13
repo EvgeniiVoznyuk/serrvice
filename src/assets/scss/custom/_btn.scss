@@ -1,0 +1,11 @@
+.btn {
+  background-color: $blue;
+  color: $white;
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+  &:hover {
+    -webkit-box-shadow: 3px 4px 23px 5px rgba(0,0,0,0.52);
+    -moz-box-shadow: 3px 4px 23px 5px rgba(0,0,0,0.52);
+    box-shadow: 3px 4px 23px 5px rgba(0,0,0,0.52);
+  }
+}

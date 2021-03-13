@@ -1,0 +1,8 @@
+.container {
+  width: 78vw;
+}
+
+.title {
+  margin-top: 130px;
+  @include font($manrope, $f-72, $black, 800);
+}
